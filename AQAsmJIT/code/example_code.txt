@@ -1,0 +1,13 @@
+LDR R1, 100
+LSL R2, R1, #2
+ADD R1, R1, R2
+LDR R3, 101
+CMP R3, R1
+BEQ labela
+MOV R4, #0
+B labelb
+labela:
+MOV R4, #1
+labelb:
+STR R4, 102
+HALT

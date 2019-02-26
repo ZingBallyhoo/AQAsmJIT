@@ -1,0 +1,7 @@
+MOV R0, #100
+CMP R0, #100
+BEQ SupDudes
+HALT
+SupDudes:
+MOV R1, #1
+HALT
