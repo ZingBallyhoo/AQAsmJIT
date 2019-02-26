@@ -47,6 +47,8 @@ Example of generated code (from `example_code.txt`):
 
 # Related projects:
 * https://github.com/TreeveWhite/Assembly-SDK
+* https://github.com/ZanderBrown/aqabler
+* https://github.com/jack-parsons/Assembly-Interpreter-AQA
 
 # Dependencies:
 * [asmjit](https://github.com/asmjit/asmjit)
