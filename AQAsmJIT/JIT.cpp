@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "JIT.h"
 
 std::unordered_map<std::string, RegisteredInstruction*> JIT::InstructionMap = {

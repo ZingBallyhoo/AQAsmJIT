@@ -11,9 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="trim.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -31,13 +28,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TreeveAsmJIT.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="JIT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AQAsmJIT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
