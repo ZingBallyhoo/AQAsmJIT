@@ -17,13 +17,14 @@ Spec: https://filestore.aqa.org.uk/resources/computing/AQA-75162-75172-ALI.PDF
 Will execute the code in the file and then print off all register values.
 
 # Code files:
-Example code files can be found in AQAsmJIT\code
-* `example_code.txt`
-  * official example from AQA. [from a test paper, Q05.2](https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2017/june/AQA-75172-QP-JUN17.PDF) ([mark scheme](https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2017/june/AQA-75172-W-MS-JUN17.PDF))
-* `test_registers.txt`
-  * tests that all registers are written to the output, and are saved onto and restored from the stack correctly.
-* `test_cmp.txt`
-  * small thing to test that basic comparisions work correctly. This file also tests multi-halt handling
+Example code files can be found in [AQAsmJIT\code](https://github.com/ZingBallyhoo/AQAsmJIT/tree/master/AQAsmJIT/code)
+* [`example_code.txt`](https://github.com/ZingBallyhoo/AQAsmJIT/blob/master/AQAsmJIT/code/example_code.txt)
+  * Official example from AQA. [from a test paper, Q05.2](https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2017/june/AQA-75172-QP-JUN17.PDF) ([mark scheme](https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2017/june/AQA-75172-W-MS-JUN17.PDF))
+* [`test_registers.txt`](https://github.com/ZingBallyhoo/AQAsmJIT/blob/master/AQAsmJIT/code/test_registers.txt)
+  * Tests that all registers are written to the output, and are saved onto and restored from the stack correctly.
+* [`test_cmp.txt`](https://github.com/ZingBallyhoo/AQAsmJIT/blob/master/AQAsmJIT/code/test_cmp.txt)
+  * Small thing to test that basic comparisions work correctly. This file also tests multi-halt handling
+
 # How it works
 * Each of the 13 (0-12) fake registers are mapped to a real x64-16 register. There aren't enough hardware registers on 32bit
 * rcx used for memory buffer.
