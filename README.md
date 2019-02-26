@@ -40,6 +40,7 @@ Example of generated code (from `example_code.txt`):
 # Todo:
 * Changing base memory requries recompile. Currently set up for `example_code.txt`.
 * Better error handling. Will silently die if no HALT.
+* 16 bit registers. I interpreted this from a question so I don't know if this is official or not.
 * Label names are limited to 16 bytes.
 * [Is `RTN` a real instruction?](https://github.com/TreeveWhite/Assembly-SDK/blob/master/AssemblyEmmulator/bin/Debug/backend.py#L227)
   * Doesn't make sense to me, ambiguous if execution will come back to after BXX or not. e.g how x86 has call and jump, where call comes back and jump doesn't
